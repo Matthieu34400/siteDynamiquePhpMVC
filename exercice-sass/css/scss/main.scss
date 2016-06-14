@@ -1,0 +1,30 @@
+$couleur : cyan;
+$couleur2 : lightgrey;
+$sm : 650px;
+$md : 950px; //le "$" est pour déclarer la variable
+
+html{
+  background-color: $couleur;
+}
+
+div{
+  background-color: $couleur2;
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  margin: auto;
+}
+nav{
+  width: 80%;
+  li{
+    background-color: yellow;
+    list-style: none;
+    @media screen and (max-width: 850px){
+      background-color: blue;
+    }
+    a{
+      text-decoration: none;
+      color: green;
+    }
+  }
+}

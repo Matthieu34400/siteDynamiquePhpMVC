@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML lang="fr">
+<HTML>
+	<Head>
+		<Meta charset=utf-8> </Meta>
+		<Title> CV avec Javascript </Title>
+		<script type="text/javascript" src="./script/section.js"></script>
+	</Head>
+	<Body>
+		<Header id="entete"><h1></h1>
+		</Header>
+		<Nav id="barre">
+			
+		</Nav>
+			<Section>
+
+			</Section>
+			<Section>
+
+			</Section>
+			<Section>
+
+			</Section>
+			<Section>
+
+			</Section>
+		<Footer>
+		</Footer>
+
+	</Body>
+</HTML>

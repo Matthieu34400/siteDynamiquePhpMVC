@@ -1,0 +1,81 @@
+/*Reset CSS*/
+button, ul, li, header {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	padding: auto;
+}
+
+header {
+	border: 1px solid black;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 35px;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 270%;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	width : 200px;
+	height : 50px;
+}
+
+.milieu {
+	width: 200px;
+	display: flex;
+	margin-top: 100px;
+	margin-left: 200px;
+	
+}
+
+button[name="beweb"], button[name="portfolio"], button[name="cv"], button[name="switch"], button[name="dark"], button[name="light"]{
+	background-color: lightgrey;
+}
+
+
+ul {
+	width: 200px;
+	display: block;
+}
+
+.center{
+	display : block;
+	position : relative;
+	margin : auto;
+}
+
+ul.hide {
+	display: none;
+}
+
+ul.show {
+	display: block;
+}
+
+.dropdown {
+	width: 200px;
+	height: 50px;
+	overflow: hidden;
+	margin: auto;
+	transition-duration: 0.4s;
+	transition-property: height;
+}
+
+.dropdown:hover {
+	height: 250px;
+	transition: 0.9s height;
+}
+
+
+
+
+

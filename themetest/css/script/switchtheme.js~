@@ -1,0 +1,9 @@
+/* La fonction dropdown va afficher ou cacher le menu déroulant selon le paramètre en entrée */
+function dropdown(etat) {
+	if(etat==1) {
+	document.getElementById("menuderoulant").className.replace("hide","show");
+	}
+	else if(etat==0) {
+	document.getElementById("menuderoulant").className.replace("show","hide");
+	}
+}

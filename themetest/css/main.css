@@ -1,0 +1,69 @@
+/* Reset CSS */
+button,ul,li {
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+
+body {
+	padding: auto;
+}
+
+li {
+	list-style : none;
+}
+
+button {
+	width : 150px;
+	height : 50px;
+}
+
+ul {
+	width: 150px;
+	display: block;
+}
+
+.center {
+	display : block;
+	position : relative;
+	margin : auto;
+}
+
+ul.hide {
+	display: none;
+}
+
+/**/ ul.show {
+	display: block;
+} 
+
+/*Changer le background color des boutons dark et light*/
+button[name="dark"] {
+	background-color: blue;
+}
+
+button[name="light"] {
+	background-color: green;
+}
+/*Menu déroulant full CSS*/
+.dropdown {
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+	padding-top: 50px;
+	margin: auto;
+	transition-duration: 0.4s;
+	transition-property: height;
+}
+
+.dropdown:hover {
+	height: 250px;
+	transition: 0.9s height;
+}
+
+
+
+
+
+
+

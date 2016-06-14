@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML lang="fr-fr">
+<HTML>
+	<Head>
+		<Meta charset=utf-8>
+		<Title> Liste des liens des projets </Title>
+		<link rel="stylesheet" href="liste.css">
+		<link rel="stylesheet" href="./themetest/css/light/main.css">
+	</Head>
+<BODY>
+	
+	<header>
+		<h3> Liste des liens des projets <h3>
+	</header>
+		
+		<ul class="milieu">
+			<li><button name="beweb">
+			<a href ="./beweb/"> Projet du site BeWeb </a> </button> 
+			</li>
+			<li><button name="portfolio">
+			<a href="./portfolio/"> Projet du PortFolio </a> </button>
+			</li>
+			<li><button name="cv">
+			<a href="./cv/2emecv/index.html"> Mon CV </a> </button>
+			</li>
+			<div class="dropdown">
+			<button class="center" onmouseover="dropdown(1);" onmouseout="dropdown(0);" name="switch"> Thème </button> 
+		<ul class="center" id="liste">
+		<li> <button name="dark"> Dark </button> </li>
+		<li> <button name="light"> Light </button> </li>
+		</ul>
+		</div>
+		</ul>
+			
+</BODY>
+</HTML>
