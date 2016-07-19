@@ -1,0 +1,22 @@
+body{
+    background: radial-gradient(lightgrey, white, lightgrey);
+    text-align: center;
+    font-size: 25px;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    top: 1em;
+    border-bottom: 5px solid black;
+    padding-bottom: 25px;
+}
+footer{
+    position: relative;
+    top:15em;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
